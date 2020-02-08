@@ -1,2 +1,26 @@
 * Introduction
 Some tips for Windows Users.
+
+* AutoHotkey
+AutoHotkey is a keyboard macro software for Microsoft Windows. It is free.
+Refer to: http://ergoemacs.org/misc/capslock_do_home_key.html
+
+** AHK script example
+To run .ahk script, just double click it.
+#+BEGIN_SRC shell
+  ; AutoHotKey
+  ; make capslock do home, and make right_shift do capslock
+  Capslock::Home
+  RShift::Capslock
+#+END_SRC
+
+** Start AutoHotkey when Windows Starts
+Hold down Alt and drag your .ahk file to the folder named:
+#+BEGIN_SRC shell
+  C:\Users\{user_name}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+#+END_SRC
+This will create a link shortcut to your Startup folder. When Windows starts, your script will also automatically start.
+
+** Problem in Win10
+- Problem: Hotkeys not working in some applications.
+- Solution: Run /C:\ProgramData\Microsoft\Windows\Start Menu\Programs\AutoHotkey\AutoHotkey/ as administrator.
