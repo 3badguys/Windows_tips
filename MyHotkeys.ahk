@@ -1,8 +1,8 @@
 ; AutoHotKey
 
 ; make capslock do home, and make right_shift do capslock
-Capslock::Home
-RShift::Capslock
+; Capslock::Home
+; RShift::Capslock
 
 ; http://xahlee.info/mswin/autohotkey_examples.html
 ; disable F1 Help
