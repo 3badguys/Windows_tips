@@ -5,6 +5,9 @@ Some tips for Windows Users.
 AutoHotkey is a keyboard macro software for Microsoft Windows. It is free.
 Refer to: http://ergoemacs.org/misc/capslock_do_home_key.html
 
+** Documentation
+https://www.autohotkey.com/docs/AutoHotkey.htm
+
 ** AHK script example
 To run [[file:MyHotkeys.ahk][.ahk script]], just double click it.
 #+BEGIN_SRC shell
